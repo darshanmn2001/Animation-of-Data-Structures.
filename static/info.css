@@ -1,0 +1,41 @@
+body{
+
+    background: linear-gradient(115.58deg, #00FC19 0%, #1700A4 100.22%), radial-gradient(92.72% 100% at 50% 0%, #EBFFCB 0%, #651200 100%), radial-gradient(92.72% 100% at 50% 0%, #FAFF00 0%, #820000 100%), radial-gradient(109.21% 213.32% at 100% 0%, #FF4D00 0%, #00C2FF 100%), linear-gradient(127.43deg, #D50000 0%, #7856FF 100%);
+    background-blend-mode: lighten, overlay, lighten, screen, normal;
+}
+#H1{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+margin-left: 90px;
+}
+
+h2{
+    margin-left: 90px;
+    color: brown;
+    font-weight: bold;
+    font-size: 45px;
+}
+h3{
+    margin-left: 100px;
+    font-size: 45px;
+    color:blueviolet;
+}
+h4{
+    margin-left: 100px;
+    font-size: 45px;
+    color:crimson; 
+    font-weight: bold;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: xx-large;
+    text-align: justify;
+
+}
