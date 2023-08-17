@@ -1,0 +1,97 @@
+  #stack {
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+            height: 500px;
+            width: 200px;
+            border: 1px solid black;
+            margin:10px auto 0px 50px;
+            border-radius: 18px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  6px 6px 25px #707070,
+             -6px -6px 25px #ffffff;
+
+        }
+
+        .element {
+            height: 40px;
+            width: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+        #push-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        input[type="number"] {
+            height: 30px;
+            width: 100px;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        button {
+            height: 30px;
+            width: 100px;
+            font-size: 24px;
+        }
+        #code-display {
+            font-family: monospace;
+            margin-top: 20px;
+            white-space: pre;
+            border-radius:20px;
+            -webkit-box-shadow: 0 0 27.5px 22.5px #dddddd;
+            -moz-box-shadow: 0 0 27.5px 22.5px #dddddd;
+            box-shadow: 0 0 27.5px 22.5px #dddddd;
+
+        }
+        .items{
+        height:40px;
+        width:90%;
+        color:white;
+        margin-top: 5px ;
+        border-radius:10px;
+        display: flex; /* set the display property to flex */
+        justify-content: center; /* center the text horizontally */
+        align-items: center; /* center the text vertically */
+        border-radius: 53px;
+        border-radius: 53px;
+        border-radius: 45px;
+        border-radius: 45px;
+        background: #ffffff;
+        box-shadow:  5px 5px 12px #666666,
+                     -5px -5px 12px #ffffff;
+        }
+        .maindiv{
+            position: relative;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        justify-items: relative;
+        align-items: center;
+        align-text:center;
+        width:20%;
+        }
+        #push-farm{
+        margin-bottom:auto;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        justify-items: relative;
+        bottom:0;
+        }
+        body{
+        padding:0px;
+        margin:0px;
+        width:100%;
+        bottom:0;
+        height:100%;
+        background: linear-gradient(180deg, #ffd2ea 0%, #cfcfff 93%);
+        }
